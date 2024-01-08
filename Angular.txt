@@ -1,0 +1,3 @@
+Não esquecer de abrir a pasta no terminal usadno cd
+ng serve : liga o servidor
+ng generate component meu-componente: gera um componente novo

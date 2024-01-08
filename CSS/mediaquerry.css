@@ -1,0 +1,28 @@
+body {
+    background-color: lightpink;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 650px){
+    body{
+        background-color: lightseagreen;
+    }
+}
+
+@media screen and (max-width: 550px){
+    body{
+        background-color: greenyellow;
+    }
+}
+
+
+
+@media screen and (max-width: 450px){
+    body{
+        background-color: lightcoral;
+    }
+}

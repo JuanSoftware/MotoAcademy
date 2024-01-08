@@ -1,0 +1,39 @@
+body{
+    background-color: darkgray;
+    margin: 0px;
+    padding: 0px;
+    height: 180vh;
+    width: 240vh;
+}
+
+.pai{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 150px;
+    border: 1px solid black;
+
+}
+
+.filho{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 1px solid black;
+}               
+.paragrafo{
+    width: 600px;
+    margin: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: red;
+    font-size: 170%;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline overline;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: 5px 5px 1px green;
+    text-align: justify;
+}
