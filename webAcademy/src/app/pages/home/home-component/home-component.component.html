@@ -37,4 +37,22 @@
       </form>
     </div>
   </nav>
+  <br>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Idade</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let item of alunos">
+      <tr>
+        <th scope="row">1</th>
+        <td>{{item['nome']}}</td>
+        <td>{{item['idade']}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button (click)="insertAlunos()">Insert ALunos</button>
 </div>
